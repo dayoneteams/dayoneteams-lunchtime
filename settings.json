@@ -1,0 +1,21 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.enableDebugLogs": true,
+  "prettier.semi": false, // Ensure Prettier doesn't add semicolons
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 80,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.autoFixOnSave": true, // Automatically fix ESLint issues on save
+  "files.autoSave": "onWindowChange", // Optional: Auto-save files when you switch windows
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}

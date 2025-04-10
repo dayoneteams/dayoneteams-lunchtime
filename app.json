@@ -1,0 +1,71 @@
+{
+  "expo": {
+    "name": "Dayoneteams Lunchtime",
+    "slug": "dayoneteams-lunchtime",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./libs/common/design-system/assets/images/app-logo.png",
+    "splash": {
+      "image": "./libs/common/design-system/assets/images/app-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dayoneteams.lunchtime.ios",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCameraUsageDescription": "Ứng dụng cần truy cập camera để chụp ảnh.",
+        "NSPhotoLibraryUsageDescription": "Ứng dụng cần truy cập thư viện ảnh để hiển thị và lưu ảnh.",
+        "NSLocationWhenInUseUsageDescription": "Ứng dụng cần quyền truy cập vị trí để cung cấp các tính năng liên quan.",
+        "NSLocationAlwaysUsageDescription": "Ứng dụng cần quyền truy cập vị trí ngay cả khi không mở."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./libs/common/design-system/assets/images/app-logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.dayoneteams.lunchtime.android"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./libs/common/design-system/assets/images/app-logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./libs/common/design-system/assets/images/app-logo.png",
+          "imageWidth": 100,
+          "imageHeight": 100,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f0dacfb8-b157-45fd-8224-492498f8ffd9"
+      }
+    },
+    "owner": "minhnguyen_2",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f0dacfb8-b157-45fd-8224-492498f8ffd9"
+    }
+  }
+}
