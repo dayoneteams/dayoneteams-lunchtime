@@ -29,6 +29,7 @@ const lightTheme = {
     ...MD3LightTheme.colors,
     ...LightTheme.colors,
     primary: lightColors.primary,
+    onPrimary: lightColors.onPrimary,
     background: commonColors.lightModeBackground, // Light Mode Background
     text: commonColors.dark,
   },
@@ -46,6 +47,7 @@ const darkTheme = {
     ...MD3DarkTheme.colors,
     ...DarkTheme.colors,
     primary: darkColors.primary,
+    onPrimary: darkColors.onPrimary,
     background: commonColors.darkModeBackground, // Dark Mode Background
     text: commonColors.white,
   },
