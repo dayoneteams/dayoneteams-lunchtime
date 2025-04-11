@@ -9,8 +9,8 @@ i18next.use(initReactI18next).init({
     en: en,
     vi: vi,
   },
-  lng: "en", // Ngôn ngữ mặc định
-  fallbackLng: "en",
+  lng: "vi", // Ngôn ngữ mặc định
+  fallbackLng: "vi",
   interpolation: {
     escapeValue: false,
   },

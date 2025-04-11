@@ -15,6 +15,13 @@ export default function RootLayout() {
           screenOptions={() => ({
             animation: "slide_from_right",
           })}>
+          <Stack.Screen name="index" options={{ headerShown: false }} />
+          <Stack.Screen
+            name="intro"
+            options={{
+              headerShown: false,
+            }}
+          />
           <Stack.Screen
             name="(main-tabs)"
             options={{
