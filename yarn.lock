@@ -4643,9 +4643,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayoneteams-lunchtime@workspace:.":
+"dayoneteams-expo-template@workspace:.":
   version: 0.0.0-use.local
-  resolution: "dayoneteams-lunchtime@workspace:."
+  resolution: "dayoneteams-expo-template@workspace:."
   dependencies:
     "@babel/core": ^7.25.2
     "@eslint/js": ^9.22.0
@@ -4668,16 +4668,15 @@ __metadata:
     eslint-plugin-prettier: ^5.2.3
     expo: ~52.0.39
     expo-blur: ~14.0.3
-    expo-camera: ^16.0.18
+    expo-camera: ~16.0.18
     expo-constants: ~17.0.8
     expo-dev-client: ~5.0.14
     expo-font: ~13.0.4
     expo-haptics: ~14.0.1
-    expo-image-picker: ^16.0.6
     expo-linking: ~7.0.5
     expo-localization: ^16.0.1
     expo-location: ~18.0.8
-    expo-notifications: ^0.29.14
+    expo-notifications: ~0.29.14
     expo-router: ~4.0.19
     expo-splash-screen: ~0.29.22
     expo-status-bar: ^2.0.1
@@ -5595,9 +5594,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-camera@npm:^16.0.18":
-  version: 16.1.1
-  resolution: "expo-camera@npm:16.1.1"
+"expo-camera@npm:~16.0.18":
+  version: 16.0.18
+  resolution: "expo-camera@npm:16.0.18"
   dependencies:
     invariant: ^2.2.4
   peerDependencies:
@@ -5608,7 +5607,7 @@ __metadata:
   peerDependenciesMeta:
     react-native-web:
       optional: true
-  checksum: 970549fc2326dc1cf516b8e0acd48b5d1bc974a046554321e42c659f5c9210e1bbab0887963738e87005f0c62542bf0bf5d3e44682586a93906d3efe97bc7037
+  checksum: 91c7f23bcb7567500277a0c5867aa3c1b9c5a6af82888514186a985fbb00b0682ee1ccd06a122484a2549ae00a7d8d83c2edeabdc273e284b0c23eb9a0892368
   languageName: node
   linkType: hard
 
@@ -5714,26 +5713,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-image-loader@npm:~5.1.0":
-  version: 5.1.0
-  resolution: "expo-image-loader@npm:5.1.0"
-  peerDependencies:
-    expo: "*"
-  checksum: dafd182e9cea5c6b81202f62d4016be51e5669e13f76e0a514b58b9c502c7366e5b5df02d600897e0d302acd1823eb5b2ca23a2c3f7242f173d2414caed42e1a
-  languageName: node
-  linkType: hard
-
-"expo-image-picker@npm:^16.0.6":
-  version: 16.1.1
-  resolution: "expo-image-picker@npm:16.1.1"
-  dependencies:
-    expo-image-loader: ~5.1.0
-  peerDependencies:
-    expo: "*"
-  checksum: ced89ec8603c1af0bec93f1acf9898b229679827aeb6f070aa8b61ad121c0232df3080173187e8bde606e2aac87a607dbdd3448b516ef4728cb8defad5708419
-  languageName: node
-  linkType: hard
-
 "expo-json-utils@npm:~0.14.0":
   version: 0.14.0
   resolution: "expo-json-utils@npm:0.14.0"
@@ -5824,7 +5803,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-notifications@npm:^0.29.14":
+"expo-notifications@npm:~0.29.14":
   version: 0.29.14
   resolution: "expo-notifications@npm:0.29.14"
   dependencies:
