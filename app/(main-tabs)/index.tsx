@@ -22,7 +22,7 @@ export default function Index() {
 
   const { count, increase, decrease, reset } = useAppStore()
 
-  const { toggleTheme, theme } = useThemeContext()
+  const { toggleTheme } = useThemeContext()
 
   const handleSuccess = () => {
     successHandling("Success", "RootLayout")

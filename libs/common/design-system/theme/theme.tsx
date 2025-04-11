@@ -14,7 +14,7 @@ import {
 } from "react-native-paper"
 import { SafeAreaProvider } from "react-native-safe-area-context"
 
-import { colors } from "../colors"
+import { commonColors, darkColors, lightColors } from "../colors"
 
 const { LightTheme, DarkTheme } = adaptNavigationTheme({
   reactNavigationLight: NavigationDefaultTheme,
@@ -28,9 +28,9 @@ const lightTheme = {
   colors: {
     ...MD3LightTheme.colors,
     ...LightTheme.colors,
-    primary: "#6200ee",
-    background: colors.lightModeBackground, // Light Mode Background
-    text: colors.dark,
+    primary: lightColors.primary,
+    background: commonColors.lightModeBackground, // Light Mode Background
+    text: commonColors.dark,
   },
   fonts: {
     ...NavigationDefaultTheme.fonts,
@@ -45,9 +45,9 @@ const darkTheme = {
   colors: {
     ...MD3DarkTheme.colors,
     ...DarkTheme.colors,
-    primary: "#bb86fc",
-    background: colors.darkModeBackground, // Dark Mode Background
-    text: colors.white,
+    primary: darkColors.primary,
+    background: commonColors.darkModeBackground, // Dark Mode Background
+    text: commonColors.white,
   },
   fonts: {
     ...NavigationDarkTheme.fonts,
